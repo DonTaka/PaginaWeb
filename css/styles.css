@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+body img{
+    width: 250px;
+    height: 250px;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    border: 5px solid red;
+    padding: 20px;
+}
+.center a {
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.global {
+    display:block;
+    margin: auto;
+}
+.menu{
+    width: 20%;
+    float: left;
+    margin-left: -15px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.menu a:hover{
+    color: grey;
+}
+.menu li{
+    list-style: none;
+    border: 2px solid white;
+    padding: 20px;
+}
+.cajas{
+    width: 80%;
+    height: 25%;
+    float:right;
+}
+.cajas p{
+    padding: 60px;
+    margin: 1px;
+    font-weight: bold;
+    color: black;
+}
